@@ -65,13 +65,13 @@ if(userScore.textContent == 3) victory();
 function defeat(){
    
     result.innerHTML =
-     '<img style = "width : 500px;" src="/images/lose.png" alt="">  <h2>Click here to start a new game </h2> ';
+     '<img style = "width : 500px;" src="./images/lose.png" alt="">  <h2>Click here to start a new game </h2> ';
     document.querySelector("h2").addEventListener("click", ()=> location.reload());
 }
 
 function victory(){
     result.innerHTML = 
-    '<img style = "width : 500px;" src="/images/win.png" alt="">  <h2>Click here to start a new game </h2> ';
+    '<img style = "width : 500px;" src="./images/win.png" alt="">  <h2>Click here to start a new game </h2> ';
     document.querySelector("h2").addEventListener("click", ()=> location.reload());
 }
 
