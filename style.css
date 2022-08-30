@@ -30,7 +30,8 @@ h1 {
 .names{
     padding: 0 250px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    column-gap: 130px;
 
 }
 .champions img {
