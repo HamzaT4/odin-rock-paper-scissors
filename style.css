@@ -1,0 +1,42 @@
+body{
+    background-color:#111;
+    margin: 0;
+}
+.header img {
+    width: 200px;
+}
+h1 {
+    color: #FFED8A;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    background-color: azure;
+    color: black;
+}
+.champions .imgs{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+
+}
+.names{
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.champions img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 60% ;
+    overflow: hidden;
+}
